@@ -76,4 +76,16 @@ npm run dev:admin
 npm run dev:mobile
 ```
 
+Para abrir la app movil en navegador en el puerto 8080:
+
+```bash
+npm run dev:mobile:web
+```
+
+URL:
+
+```text
+http://localhost:8080/login
+```
+
 Para probar Mercado Pago webhooks localmente necesitas exponer la API con ngrok/cloudflared y poner esa URL en `API_PUBLIC_URL`.
